@@ -1,4 +1,7 @@
-# Solucoes C BeeCrowd
- - Soluções dos exercícios da plataforma BeeCrowd, desenvolvidas por mim em linguagem C.
+# Logica de programação
+### Um repositório, criado por mim, o qual desenvolvo soluções de lógica em diversas plataformas.
+
+**Linguagens, até o momento, presentes :**
+- C
+
   
- - Aulas ministradas pelo professor João Henrique de Souza Pereira na Universidade Federal de Uberlândia (UFU).
