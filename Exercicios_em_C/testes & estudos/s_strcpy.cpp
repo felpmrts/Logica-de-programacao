@@ -21,3 +21,5 @@ int main() {
 // a sua função strcpy em C copia o caractere nulo (\0) da string de origem (a) para a string de destino (b). Você não precisa fazer isso manualmente.
 
 // Um ponto importante sobre fgets é que, se houver espaço suficiente no buffer, ele também armazena o caractere de nova linha (\n) que é digitado quando você pressiona Enter. POR ISSO É IMPORTANTE USAR FFLUSH(STDIN);
+
+// strncpy(destino, origem, quantidade);
