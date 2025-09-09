@@ -4,26 +4,27 @@
 int main() {
 
     char palavra[101];
-    scanf("%s", palavra);
+    fgets(palavra, sizeof(palavra), stdin);
+    palavra[strcspn(palavra, "\n")] = '\0';
 
-    int tamanho = strlen(palavra);
+    int tam = strlen(palavra);
 
-    char inversao[101];
+    char palindromo[101];
+
+    int i;
     int j = 0;
-
-    for(int i = tamanho -1; i >= 0; i--) {
-        inversao[j] = palavra[i];
+    for(i = 0; i < tam; i++) {
+        palindromo[i] = palavra[(tam -1) - i];
         j++;
     }
 
-    inversao[j] = '\0';
+    palindromo[j] = '\0';
 
-    if(strcmp(palavra, inversao) == 0) {
+    if(strcmp(palavra, palindromo) == 0) {
         printf("sim\n");
     } else {
         printf("nao\n");
     }
 
-
     return 0;
-}
+    }
