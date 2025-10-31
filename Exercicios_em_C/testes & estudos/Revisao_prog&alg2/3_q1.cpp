@@ -8,7 +8,7 @@ int main() {
     int numero = 12;
 
     if(numero > 10) {
-        printf("O número é maior que dez.\n");
+        printf("O número é maior que dez!\n");
     }
 
     return 0;
