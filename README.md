@@ -1,7 +1,5 @@
-# Logica de programação
-### Um repositório, criado por mim, o qual desenvolvo soluções de lógica em diversas plataformas.
+# Programming Logic
+### A repository, created by me, where I develop logic solutions for various platforms.
 
-**Linguagens, até o momento, presentes :**
+**Languages ​​currently included:**
 - C
-
-  
