@@ -1,16 +1,13 @@
-public class Processamento {
+public class Casting {
 
     public static void main(String[] args)    {
 
-        int x;
-        double y;
+        int a = 5, b = 3;
+        double resultado;
 
-        x = 5;
-        y = 2.0 * x;
+        resultado =  (double) a / b; // Casting
 
-        System.out.println(x);
-        System.out.println(y);
-
+        System.out.println(resultado);
 
     }
 
