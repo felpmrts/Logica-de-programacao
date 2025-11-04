@@ -21,6 +21,7 @@ public class ScannerTest2 {
         System.out.println(b);
         System.out.println(c);
 
+        primeiro.close();
     }
 
 }
