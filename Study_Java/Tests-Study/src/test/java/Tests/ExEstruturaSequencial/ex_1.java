@@ -1,4 +1,4 @@
-package ExEstruturaSequencial;
+package Tests.ExEstruturaSequencial;
 import java.util.Scanner;
 
 public class ex_1 {

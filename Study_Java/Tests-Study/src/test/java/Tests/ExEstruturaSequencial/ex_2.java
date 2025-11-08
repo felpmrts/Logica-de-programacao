@@ -1,4 +1,4 @@
-package ExEstruturaSequencial;
+package Tests.ExEstruturaSequencial;
 import java.util.Scanner;
 import java.util.Locale;
 

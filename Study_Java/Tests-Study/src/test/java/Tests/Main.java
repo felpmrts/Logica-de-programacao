@@ -1,3 +1,5 @@
+package Tests;
+
 import java.util.Locale;
 
 public class Main {

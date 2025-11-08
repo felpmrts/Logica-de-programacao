@@ -1,3 +1,5 @@
+package Tests;
+
 public class MathFunction {
 
     public static void main(String[] args) {
